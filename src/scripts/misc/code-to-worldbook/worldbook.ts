@@ -8,7 +8,13 @@ export async function saveCodeToWorldbook(content: string): Promise<{ worldbookN
   const global = !chat && !character?.primary && !character?.additional.length ? getGlobalWorldbookNames() : [];
   const worldbookName = selectWorldbookName({ chat, character, global });
 
-  // 交给助手补全条目默认值，只追加条目，不创建或重新绑定世界书。
-  await createWorldbookEntries(worldbookName, [entry]);
+  // 显式设置插入位置与递归限制，其余字段由助手补全默认值。
+  await createWorldbookEntries(worldbookName, [
+    {
+      ...entry,
+      position: { type: 'before_character_definition' },
+      recursion: { prevent_incoming: true, prevent_outgoing: true },
+    },
+  ]);
   return { worldbookName, entryName: entry.name };
 }
