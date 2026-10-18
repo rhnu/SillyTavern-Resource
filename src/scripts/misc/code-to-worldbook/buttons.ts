@@ -16,19 +16,22 @@ export function mountCodeWorldbookButtons(): () => void {
   const $style = $('<style>')
     .attr('script_id', getScriptId())
     .text(`
-    ${codeSelector}:has(> .${buttonClass}) { padding-top: 2.2em; }
     ${codeSelector} > .${buttonClass} {
       position: absolute; top: 0; right: 30px;
       display: inline-flex; align-items: center; justify-content: center;
       width: 22px; min-width: 22px; height: 22px; margin: 4px; padding: 0;
-      border: 0; border-radius: 3px; background: none; color: inherit;
-      font: inherit; line-height: 1; opacity: .4; cursor: pointer;
+      border: 0; border-radius: 3px; background: none;
+      color: var(--SmartThemeBodyColor, inherit);
+      font: inherit; line-height: 1; opacity: .8; cursor: pointer;
       white-space: nowrap; writing-mode: horizontal-tb;
     }
     ${codeSelector} > .${buttonClass}:hover,
-    ${codeSelector} > .${buttonClass}:focus-visible { opacity: .8; }
+    ${codeSelector} > .${buttonClass}:focus-visible {
+      color: var(--SmartThemeQuoteColor, var(--SmartThemeBodyColor, inherit));
+      background: var(--SmartThemeBlurTintColor, transparent); opacity: 1;
+    }
     ${codeSelector} > .${buttonClass}:focus-visible { outline: 1px solid currentColor; }
-    ${codeSelector} > .${buttonClass}:disabled { opacity: .2; cursor: wait; }
+    ${codeSelector} > .${buttonClass}:disabled { opacity: .35; cursor: wait; }
   `)
     .appendTo(doc.head);
 
