@@ -40,7 +40,9 @@ export async function requestNovelAiImage(
   }
 
   try {
-    const response = await fetch(NOVELAI_IMAGE_API_URL, {
+    // 配置为完整端点，保留代理需要的路径和查询参数。
+    const endpoint = process.env.NOVELAI_IMAGE_API_URL?.trim() || NOVELAI_IMAGE_API_URL;
+    const response = await fetch(endpoint, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
