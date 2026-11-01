@@ -262,7 +262,7 @@ importers:
         version: 2.1.44
       '@vitejs/plugin-react':
         specifier: ^6.1.2
-        version: 6.1.2(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))
+        version: 6.1.2(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))
       ai:
         specifier: 6.0.280
         version: 6.0.280(zod@4.6.7)
@@ -285,8 +285,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0
       openai:
-        specifier: ^7.45.1
-        version: 7.45.1(undici@6.29.1)(zod@4.6.7)
+        specifier: ^7.46.0
+        version: 7.46.0(undici@6.29.1)(zod@4.6.7)
       oxfmt:
         specifier: 0.67.0
         version: 0.67.0
@@ -312,8 +312,8 @@ importers:
         specifier: 1.6.3
         version: 1.6.3
       sass:
-        specifier: ^1.107.0
-        version: 1.107.0
+        specifier: ^1.107.1
+        version: 1.107.1
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
@@ -324,8 +324,8 @@ importers:
         specifier: 0.23.0
         version: 0.23.0(typescript@7.0.2)
       tslib:
-        specifier: ^2.8.1
-        version: 2.8.1
+        specifier: ^2.9.1
+        version: 2.9.1
       type-fest:
         specifier: ^4.41.0
         version: 4.41.0
@@ -334,13 +334,13 @@ importers:
         version: 7.0.2
       vite:
         specifier: ^8.3.5
-        version: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)
+        version: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)
       vite-plugin-singlefile:
         specifier: ^2.3.4
-        version: 2.3.4(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))
+        version: 2.3.4(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))
       vitest:
         specifier: 4.1.6
-        version: 4.1.6(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))
+        version: 4.1.6(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))
 
 packages:
 
@@ -1492,8 +1492,8 @@ packages:
   earcut@3.2.4:
     resolution: {integrity: sha512-FHc6yNpnTORB0tM5kmZ03iD2mDuNakDE2lvf4Hw1XkfxtEHIGVi01B/GqUSwx+NcC1WGjidAfpTXzeALtPtfpg==}
 
-  electron-to-chromium@1.5.468:
-    resolution: {integrity: sha512-8XdEp3sIqO+PzmVPxhzqHq/3+yCxp44m27cm2WY1sRn3ZhwKyKmqSi2hx6gEhmnOXmh8NUuYE00z6Onzn5m6DA==}
+  electron-to-chromium@1.5.471:
+    resolution: {integrity: sha512-Lo7jyyneHRYUQYM3WZ2rBEei9FcUIwValFPLifTbr4NTpc6oyUB+nN2rrOtbn3CE5pgz930mYxRJeD+glR7d6Q==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1986,8 +1986,8 @@ packages:
   node-addon-api@7.1.1:
     resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
 
-  node-releases@2.0.61:
-    resolution: {integrity: sha512-5NUN6QCxNFrS9oEA9RPS+d0AP+ooGBzzovY2JhIpDRHacPvOhHjXjUsUMX9qp4nLHZ+5jVgXB2jj/P4arGOE/g==}
+  node-releases@2.0.62:
+    resolution: {integrity: sha512-A0Eq+qVDQI97IbAD6g/HriIuv256el9N8EwF4+xqJ49pwrdRYpdCSmLk0sO4I3fnS6hpYE5v22B73Bk+WArEoQ==}
     engines: {node: '>=18'}
 
   normalize-path@3.0.0:
@@ -2005,8 +2005,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@7.45.1:
-    resolution: {integrity: sha512-mutrJXwhJIMZ24Lab2COFtNp44OcpZSnV4O2O7q38wAHUa2m2fQqUO5pj1XS3PqLfOTeODBUS9YoadqDnnGk5A==}
+  openai@7.46.0:
+    resolution: {integrity: sha512-FmbPcDtc0BTCN7ZQ5SBEnC4lPNMEUjA6w/lRkbh7l9IzWx1Mue6P7OEU2cayp5S5YjLuc7VEUfBCYqoQpb6+1w==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       '@aws-sdk/credential-provider-node': '>=3.972.0 <4'
@@ -2293,8 +2293,8 @@ packages:
   sanitize-filename@1.6.3:
     resolution: {integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==}
 
-  sass@1.107.0:
-    resolution: {integrity: sha512-+whPilvVNoAD57xvdIPLQT0gXo4RD1lHYw+Uw8zYHlojaeaMDxK14tc0JmEsz/XMns48h3lpypisMP+3E8eHQA==}
+  sass@1.107.1:
+    resolution: {integrity: sha512-aJ1/LvxOOb04YhmiBjzZn3jVwdHKol+OVhoMV6fFl02fF9T3i+5Mg9l/CnzqtM+NX5Jn5o3lAbs/ZJivTCLHfQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -2482,8 +2482,8 @@ packages:
       unrun:
         optional: true
 
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+  tslib@2.9.1:
+    resolution: {integrity: sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -3225,10 +3225,10 @@ snapshots:
 
   '@vercel/oidc@3.2.0': {}
 
-  '@vitejs/plugin-react@6.1.2(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))':
+  '@vitejs/plugin-react@6.1.2(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)
 
   '@vitest/expect@4.1.6':
     dependencies:
@@ -3239,13 +3239,13 @@ snapshots:
       chai: 6.3.0
       tinyrainbow: 3.2.0
 
-  '@vitest/mocker@4.1.6(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))':
+  '@vitest/mocker@4.1.6(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.1.6
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)
 
   '@vitest/pretty-format@4.1.6':
     dependencies:
@@ -3384,8 +3384,8 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.34
       caniuse-lite: 1.0.30001820
-      electron-to-chromium: 1.5.468
-      node-releases: 2.0.61
+      electron-to-chromium: 1.5.471
+      node-releases: 2.0.62
       update-browserslist-db: 1.3.4(browserslist@4.29.5)
 
   buffer-from@1.1.2: {}
@@ -3506,7 +3506,7 @@ snapshots:
 
   earcut@3.2.4: {}
 
-  electron-to-chromium@1.5.468: {}
+  electron-to-chromium@1.5.471: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3909,7 +3909,7 @@ snapshots:
   node-addon-api@7.1.1:
     optional: true
 
-  node-releases@2.0.61: {}
+  node-releases@2.0.62: {}
 
   normalize-path@3.0.0: {}
 
@@ -3922,7 +3922,7 @@ snapshots:
       wrappy: 1.0.2
     optional: true
 
-  openai@7.45.1(undici@6.29.1)(zod@4.6.7):
+  openai@7.46.0(undici@6.29.1)(zod@4.6.7):
     optionalDependencies:
       undici: 6.29.1
       zod: 4.6.7
@@ -4222,7 +4222,7 @@ snapshots:
     dependencies:
       truncate-utf8-bytes: 1.0.2
 
-  sass@1.107.0:
+  sass@1.107.1:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -4397,7 +4397,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tslib@2.8.1: {}
+  tslib@2.9.1: {}
 
   tunnel-agent@0.6.0:
     dependencies:
@@ -4456,12 +4456,12 @@ snapshots:
 
   verkit@0.4.1: {}
 
-  vite-plugin-singlefile@2.3.4(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)):
+  vite-plugin-singlefile@2.3.4(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)):
     dependencies:
       picomatch: 4.0.7
-      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)
 
-  vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1):
+  vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -4472,14 +4472,14 @@ snapshots:
       '@types/node': 26.6.6
       fsevents: 2.3.3
       jiti: 2.7.0
-      sass: 1.107.0
+      sass: 1.107.1
       terser: 5.51.2
       yaml: 2.9.1
 
-  vitest@4.1.6(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)):
+  vitest@4.1.6(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)):
     dependencies:
       '@vitest/expect': 4.1.6
-      '@vitest/mocker': 4.1.6(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1))
+      '@vitest/mocker': 4.1.6(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1))
       '@vitest/pretty-format': 4.1.6
       '@vitest/runner': 4.1.6
       '@vitest/snapshot': 4.1.6
@@ -4496,7 +4496,7 @@ snapshots:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tinyrainbow: 3.2.0
-      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.0)(terser@5.51.2)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(sass@1.107.1)(terser@5.51.2)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.10.0
